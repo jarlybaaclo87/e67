@@ -3,7 +3,7 @@ export default function CartItems() {
     <div id="cart">
       <p>No items in cart!</p>
 
-      {/* <ul id="cart-items">
+      <ul id="cart-items">
           {cartItems.map((item) => {
             const formattedPrice = `$${item.price.toFixed(2)}`;
 
@@ -23,11 +23,11 @@ export default function CartItems() {
               </li>
             );
           })}
-        </ul> */}
+        </ul>
 
-      {/* <p id="cart-total-price">
+      <p id="cart-total-price">
         Cart Total: <strong>{formattedTotalPrice}</strong>
-      </p> */}
+      </p>
     </div>
   );
 }
